@@ -2,7 +2,7 @@
 /**
  * print_sign - Prints if numbers are posotive or neg or zero
  *
- * @c: an integer
+ * @n: an integer
  *
  * Return: 1 if positive ,zero if zero , -1 if neg.
  */
