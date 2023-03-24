@@ -19,7 +19,7 @@ int main(void)
 		max = 2;
 		n /= 2;
 	}
-	for (i = 3; i < n; i = i + 1)
+	for (i = 3; i <= n; i = i + 1)
 	{
 		while (n % i == 0)
 		{
@@ -27,10 +27,10 @@ int main(void)
 			n = n / i;
 		}
 	}
-	
+
 	if (n > 2)
 		max = n;
-	
+
 	printf("%ld\n", max);
 
 	return (0);
