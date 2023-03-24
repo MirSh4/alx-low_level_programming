@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagnol - prints a diagonal line.
+ * print_diagonal - prints a diagonal line.
  * @n: how many lines.
  * Return: always zero.
  */
@@ -9,6 +9,7 @@
 void print_diagonal(int n)
 {
 	int i;
+	int j;
 
 	if (n > 0)
 	{
@@ -23,5 +24,7 @@ void print_diagonal(int n)
 		}
 	}
 	else
+	{
 		_putchar('\n');
+	}
 }
