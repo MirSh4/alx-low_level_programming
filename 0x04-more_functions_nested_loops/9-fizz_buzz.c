@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints all numbers from 0 to 10 followed by a new line but with a twist.
+ * main - print numbers from 0 to 10 but with a twist.
  * Return: always zero.
  */
 
@@ -18,7 +18,9 @@ int main(void)
 		else if (i % 5)
 			printf("Buzz ");
 		else
-			printf("%d " , i);
+			printf("%d ", i);
 	}
+	printf("\n");
+
 	return (0);
 }
