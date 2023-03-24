@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints all numbers from 0 to 10 followed by a new line but with a twist.
