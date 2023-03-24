@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - check code
  * Return: zero
@@ -15,11 +15,11 @@ int main(void)
 	max = -1;
 
 	while (n % 2 == 0)
-	{ 
+	{
 		max = 2;
 		n /= 2;
 	}
-	for (i = 3; i < n; i = i + 2)
+	for (i = 3; i < n; i = i + 1)
 	{
 		while (n % i == 0)
 		{
