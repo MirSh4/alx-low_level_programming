@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * fizz_buzz - prints all numbers from 0 to 10 followed by a new line but with a twist.
+ * main - prints all numbers from 0 to 10 followed by a new line but with a twist.
  * Return: always zero.
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -20,4 +20,5 @@ void fizz_buzz(void)
 		else
 			printf("%d " , i);
 	}
+	return (0);
 }
